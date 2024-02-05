@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .contact {
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .section-content {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">Rasagnya</div>
+        <div class="contact">Email: ra2497@nau.edu | Phone: (928) 221-8559</div>
+    </div>
+    <div class="section">
+        <div class="section-title">Education</div>
+        <div class="section-content">
+            <p>Bachelor of Science in Information Technology</p>
+            <p>Rishi Engineering, Graduated july 2023</p>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section-title">Experience</div>
+        <div class="section-content">
+            <p>Software Engineer</p>
+            <p>ABC Company, June 2020 - Present</p>
+            <ul>
+                <li>Developed web applications using HTML, CSS, and JavaScript.</li>
+                <li>Collaborated with cross-functional teams to deliver projects on time.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section-title">Skills</div>
+        <div class="section-content">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+    </div>
+ <footer>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
+</body>
+</html>
